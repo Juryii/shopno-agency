@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AACA,OAAO,CAAC,uIAAI;AACZ,OAAO,CAAC,sKAAI;AACZ,OAAO,CAAC,iFAAI",
+    "sources": [
+        "../styles/main.scss",
+        "../styles/_header.scss",
+        "../styles/_about_us.scss",
+        "../styles/_feature_works.scss",
+        "../styles/_our_services.scss",
+        "../styles/_small_team.scss",
+        "../styles/_what_they_says.scss",
+        "../styles/_contact_form.scss",
+        "../styles/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
