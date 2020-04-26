@@ -4,33 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
     <title>shopno agency</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div>
-            <div class="logo">
-                <span>SHOPNO</span>
+            <div class="header__logo">
+                <p>SH<span>O</span>PNO</p>
             </div>
-            <div>burger menu</div>
+            <div class="header__burger">
+                <span></span>
+            </div>
         </div>
-        <h1>
+        <h1 class="header__title">
             Say Hello to <span>SHOPNO!</span> <br>
             <span>Agency</span> CORPORATE SHOPNO Theme
         </h1>
-        <button>CONTACT US</button>
+        <button class="header__btn">CONTACT US</button>
     </header>
-    <main>
+    <main class="container">
         <!-- about us -->
-        <aside>
-            <h1>
+        <aside class="about-us">
+            <h1 class="about-us__title">
                 ABOUT US
             </h1>
-            <p>Lorem ipsum dolor sit amet event landing template</p>
-            <div>
-                <h2>We Actually Do amazing works</h2>
-                <p>A visual approach is an approach to a runway at an airport <br>
+            <p class="about-us__desc">Lorem ipsum dolor sit amet event landing template</p>
+            <div class="about-us__content">
+                <h2 class="about-us__amazing-works">We Actually Do amazing works</h2>
+                <p class="about-us__text-desc">A visual approach is an approach to a runway at an airport <br>
                     conducted under instrument flight rules. The pilot must at all times have either the airport or the
                     <br>
                     preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot
@@ -38,10 +41,10 @@
                     must at all times. <br><br>
 
                     Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
-                <h2>
+                <h2 class="about-us__great">
                     why we are the great?
                 </h2>
-                <p>
+                <p class="about-us__text-desc">
                     A visual approach is an approach to a runway at an airport <br>
                     conducted under instrument flight rules. <br>
                     The preceding aircraft in approach correct sight.
@@ -49,117 +52,209 @@
             </div>
         </aside>
         <!-- feature works -->
-        <aside>
-            <h2>
+        <aside class="feature-works">
+            <h2 class="feature-works__title">
                 featured works
             </h2>
-            <p>Lorem ipsum dolor sit amet event landing template</p>
-            <div>
+            <p class="feature-works__desc">
+                Lorem ipsum dolor sit amet event landing template
+            </p>
+            <div class="feature-works__cards">
                 <!-- img * 6 -->
+                <!-- .feature-works__card>img[src="/assets/img/feature_works/feature_works_$.png"]^*6 -->
+                <div class="feature-works__card">
+                    <img src="/assets/img/feature_works/feature_works_1.png" alt=""></div>
+                <div class="feature-works__card">
+                    <img src="/assets/img/feature_works/feature_works_2.png" alt=""></div>
+                <div class="feature-works__card">
+                    <img src="/assets/img/feature_works/feature_works_3.png" alt=""></div>
+                <div class="feature-works__card">
+                    <img src="/assets/img/feature_works/feature_works_4.png" alt=""></div>
+                <div class="feature-works__card">
+                    <img src="/assets/img/feature_works/feature_works_5.png" alt=""></div>
+                <div class="feature-works__card">
+                    <img src="/assets/img/feature_works/feature_works_6.png" alt=""></div>
             </div>
         </aside>
         <!-- our services -->
         <aside>
-            <h2>our services</h2>
-            <p>Lorem ipsum dolor sit amet event landing template</p>
-            <div>
-                <div>
-                    <h3>Designing is The CooL LOVE FOR.</h3>
-                    <p>
+            <h2 class="our-services__title">our services</h2>
+            <p class="our-services__desc">Lorem ipsum dolor sit amet event landing template</p>
+            <div class="our-services__cards">
+                <div class="our-services__card">
+                    <h3 class="our-services__card-header">Designing is The CooL LOVE FOR.</h3>
+                    <p class="our-services__card-desc">
                         Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and
                         you middle most this job was posted less than five minutes ago, and we think it’s a good match
                         for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch
                         the client while they’re still online.
                     </p>
                 </div>
-                <div>
-                    <h3>cool psd Design</h3>
-                    <p>
+                <div class="our-services__card">
+                    <h3 class="our-services__card-header">cool psd Design</h3>
+                    <p class="our-services__card-desc">
                         Our most popular service is our we know that sometimes it’s something and you middle most..
                     </p>
-                    <button>Know More</button>
+                    <button class="our-services__card-btn">Know More</button>
                 </div>
-                <div>
-                    <h3>Designing is The Cool</h3>
-                    <p>
+                <div class="our-services__card">
+                    <h3 class="our-services__card-header">Designing is The Cool</h3>
+                    <p class="our-services__card-desc">
                         Our most popular service is our Virtual Receptionist. We know that ...
                     </p>
-                    <button>Know More</button>
+                    <button class="our-services__card-btn">Know More</button>
                 </div>
-                <div>
-                    <h3>PSD TO HTML KORI</h3>
-                    <p>
+                <div class="our-services__card">
+                    <h3 class="our-services__card-header">PSD TO HTML KORI</h3>
+                    <p class="our-services__card-desc">
                         We know that sometimes it’s something and you middle most..
                     </p>
-                    <button>Know More</button>
+                    <button class="our-services__card-btn">Know More</button>
                 </div>
-                <div>
-                    <h3>cool psd Design</h3>
-                    <p>
+                <div class="our-services__card">
+                    <h3 class="our-services__card-header">cool psd Design</h3>
+                    <p class="our-services__card-desc">
                         Our most popular service is our new virtual Receptionist you middle most..
                     </p>
-                    <button>Know More</button>
+                    <button class="our-services__card-btn">Know More</button>
                 </div>
-                <div>
-                    <h3>Designing is The Cool FOR</h3>
-                    <p>
+                <div class="our-services__card">
+                    <h3 class="our-services__card-header">Designing is The Cool FOR</h3>
+                    <p class="our-services__card-desc">
                         Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and
                         you middle most..
                     </p>
-                    <button>Know More</button>
+                    <button class="our-services__card-btn">Know More</button>
                 </div>
             </div>
         </aside>
         <!-- small team -->
-        <aside>
-            <h2>
+        <aside class="small-team">
+            <h2 class="small-team__title">
                 small team
             </h2>
-            <p>
+            <p class="small-team__desc">
                 Lorem ipsum dolor sit amet event landing template
             </p>
-            <div>
-                <div>
+            <div class="small-team__users-block">
+                <div class="small-team__user">
+                    <img src="/assets/img/small_team/small_team_1.png" alt="">
                     <!-- ! hower show this block -->
-                    <h3>AL RAYHAN <span>/ UI Designer</span></h3>
-                    <p>
-                        Lorem Ipsum is not simply is  an action designer random text <br>
-                        It has roots in a piece. 
-                    </p>
-                    <div>
-                        <!-- social icons -->
+                    <div class="small-team__user-desc">
+                        <h3 class="small-team__user-name">AL RAYHAN <span>/ UI Designer</span></h3>
+                        <p class="small-team__user-desc">
+                            Lorem Ipsum is not simply is  an action designer random text <br>
+                            It has roots in a piece. 
+                        </p>
+                        <div class="small-team__user-links">
+                            <!-- social icons -->
+                        </div>
                     </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="small-team__user">
+                    <img src="/assets/img/small_team/small_team_2.png" alt="">
+                    <!-- ! hower show this block -->
+                    <div class="small-team__user-desc">
+                        <h3 class="small-team__user-name">AL RAYHAN <span>/ UI Designer</span></h3>
+                        <p class="small-team__user-desc">
+                            Lorem Ipsum is not simply is  an action designer random text <br>
+                            It has roots in a piece. 
+                        </p>
+                        <div class="small-team__user-links">
+                            <!-- social icons -->
+                        </div>
+                    </div>
+                </div>
+                <div class="small-team__user">
+                    <img src="/assets/img/small_team/small_team_3.png" alt="">
+                    <!-- ! hower show this block -->
+                    <div class="small-team__user-desc">
+                        <h3 class="small-team__user-name">AL RAYHAN <span>/ UI Designer</span></h3>
+                        <p class="small-team__user-desc">
+                            Lorem Ipsum is not simply is  an action designer random text <br>
+                            It has roots in a piece. 
+                        </p>
+                        <div class="small-team__user-links">
+                            <!-- social icons -->
+                        </div>
+                    </div>
+                </div>
+                <div class="small-team__user">
+                    <img src="/assets/img/small_team/small_team_4.png" alt="">
+                    <!-- ! hower show this block -->
+                    <div class="small-team__user-desc">
+                        <h3 class="small-team__user-name">AL RAYHAN <span>/ UI Designer</span></h3>
+                        <p class="small-team__user-desc">
+                            Lorem Ipsum is not simply is  an action designer random text <br>
+                            It has roots in a piece. 
+                        </p>
+                        <div class="small-team__user-links">
+                            <!-- social icons -->
+                        </div>
+                    </div>
+                </div>
+                <div class="small-team__user">
+                    <img src="/assets/img/small_team/small_team_5.png" alt="">
+                    <!-- ! hower show this block -->
+                    <div class="small-team__user-desc">
+                        <h3 class="small-team__user-name">AL RAYHAN <span>/ UI Designer</span></h3>
+                        <p class="small-team__user-desc">
+                            Lorem Ipsum is not simply is  an action designer random text <br>
+                            It has roots in a piece. 
+                        </p>
+                        <div class="small-team__user-links">
+                            <!-- social icons -->
+                        </div>
+                    </div>
+                </div>
+                <div class="small-team__user">
+                    <img src="/assets/img/small_team/small_team_6.png" alt="">
+                    <!-- ! hower show this block -->
+                    <div class="small-team__user-desc">
+                        <h3 class="small-team__user-name">AL RAYHAN <span>/ UI Designer</span></h3>
+                        <p class="small-team__user-desc">
+                            Lorem Ipsum is not simply is  an action designer random text <br>
+                            It has roots in a piece. 
+                        </p>
+                        <div class="small-team__user-links">
+                            <!-- social icons -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </aside>
         <!-- what they says -->
-        <aside>
-            <h2>what they says</h2>
-            <p>
+        <aside class="what-they-say">
+            <h2 class="what-they-say__title">what they says</h2>
+            <p class="what-they-say__desc">
                 Lorem ipsum dolor sit amet event landing template
             </p>
-            <div>
+            <div class="what-they-say__slider">
                 <!-- ! slider -->
-                <div>
-                    <!-- img is there -->
+                <div class="slide-1">
+                    <div>
+                        <!-- img is there -->
+                    </div>
+                    <div>
+                        <!-- description is there -->
+                        <h3>
+                            AL RAYHAN <span>/ UI/UX DESIGNER</span>
+                        </h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and you <br>
+                            standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                        <div>
+                            <!-- ! stars raiteng -->
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <!-- description is there -->
-                    <h3>
-                        AL RAYHAN <span>/ UI/UX DESIGNER</span>
-                    </h3>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and you <br>
-                        standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <div>
-                        <!-- ! stars raiteng -->
-                    </div>
+                    <!-- slider dots -->
+                </div>
+                <div>
+                    <button>pre</button>
+                    <button>next</button>
                 </div>
             </div>
         </aside>
@@ -191,12 +286,12 @@
             </div>
         </aside>
     </main>
-    <footer>
-        <h3>FOLLOW US</h3>
-        <div>
+    <footer class="the-footer">
+        <h3 class="the-footer__title">FOLLOW US</h3>
+        <div class="the-footer__links">
             <!-- TODO: insert social icons -->
         </div>
-        <p>Copyright Masum Parvej, All Rights Reserved</p>
+        <p class="the-footer__copyright">Copyright Masum Parvej, All Rights Reserved</p>
     </footer>
 </body>
 
