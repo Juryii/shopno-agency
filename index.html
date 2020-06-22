@@ -4,13 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="/js/libs/jquery-3.5.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- slider slick -->
+    <script src="/js/libs/slick.min.js"></script>
+    <!-- main js file -->
+    <script src="/js/main.js"></script>
+    <!-- main css style -->
     <link rel="stylesheet" href="/css/main.css">
     <title>shopno agency</title>
 </head>
 
 <body>
     <header class="header">
-        <div>
+        <div class="row">
             <div class="header__logo">
                 <p>SH<span>O</span>PNO</p>
             </div>
@@ -24,109 +35,168 @@
         </h1>
         <button class="header__btn">CONTACT US</button>
     </header>
-    <main class="container">
+    <main class="">
         <!-- about us -->
         <aside class="about-us">
-            <h1 class="about-us__title">
-                ABOUT US
-            </h1>
-            <p class="about-us__desc">Lorem ipsum dolor sit amet event landing template</p>
-            <div class="about-us__content">
-                <h2 class="about-us__amazing-works">We Actually Do amazing works</h2>
-                <p class="about-us__text-desc">A visual approach is an approach to a runway at an airport <br>
-                    conducted under instrument flight rules. The pilot must at all times have either the airport or the
-                    <br>
-                    preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot
-                    <br>
-                    must at all times. <br><br>
-
-                    Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
-                <h2 class="about-us__great">
-                    why we are the great?
-                </h2>
-                <p class="about-us__text-desc">
-                    A visual approach is an approach to a runway at an airport <br>
-                    conducted under instrument flight rules. <br>
-                    The preceding aircraft in approach correct sight.
-                </p>
+            <div class="container">
+                <h1 class="about-us__title">
+                    ABOUT US
+                </h1>
+                <p class="about-us__desc">Lorem ipsum dolor sit amet event landing template</p>
+                <div class="about-us__content row">
+                    <div class="about-us__column-1 col-xl-6">
+                        <!-- ! slider img -->
+                        <div class="about-us__slider col-xl-9">
+                            <div class="about-us__slider-item">
+                                <img src="/assets/img/about_us_1.png" alt="">
+                            </div>
+                            <div class="about-us__slider-item">
+                                <img src="/assets/img/our_services/our_services_2.png" alt="">
+                            </div>
+                            <div class="about-us__slider-item">
+                                <img src="/assets/img/our_services/our_services_3.png" alt="">
+                            </div>
+                            <div class="about-us__slider-item">
+                                <img src="/assets/img/our_services/our_services_4.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="about-us__column-2 col-xl-6">
+                        <h2 class="about-us__amazing-works">We Actually Do amazing works</h2>
+                        <p class="about-us__text-desc">A visual approach is an approach to a runway at an airport
+                            conducted under instrument flight rules. The pilot must at all times have either the airport or the
+                            preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot
+                            must at all times. <br><br>
+        
+                            Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
+                        <h2 class="about-us__great">
+                            why we are the great?
+                        </h2>
+                        <p class="about-us__text-desc">
+                            A visual approach is an approach to a runway at an airport
+                            conducted under instrument flight rules. <br>
+                            The preceding aircraft in approach correct sight.
+                        </p>
+                    </div>
+                    
+                </div>
             </div>
         </aside>
         <!-- feature works -->
         <aside class="feature-works">
-            <h2 class="feature-works__title">
-                featured works
-            </h2>
-            <p class="feature-works__desc">
-                Lorem ipsum dolor sit amet event landing template
-            </p>
-            <div class="feature-works__cards">
-                <!-- img * 6 -->
-                <!-- .feature-works__card>img[src="/assets/img/feature_works/feature_works_$.png"]^*6 -->
-                <div class="feature-works__card">
-                    <img src="/assets/img/feature_works/feature_works_1.png" alt=""></div>
-                <div class="feature-works__card">
-                    <img src="/assets/img/feature_works/feature_works_2.png" alt=""></div>
-                <div class="feature-works__card">
-                    <img src="/assets/img/feature_works/feature_works_3.png" alt=""></div>
-                <div class="feature-works__card">
-                    <img src="/assets/img/feature_works/feature_works_4.png" alt=""></div>
-                <div class="feature-works__card">
-                    <img src="/assets/img/feature_works/feature_works_5.png" alt=""></div>
-                <div class="feature-works__card">
-                    <img src="/assets/img/feature_works/feature_works_6.png" alt=""></div>
+            <div class="container">
+                <h2 class="feature-works__title">
+                    featured works
+                </h2>
+                <p class="feature-works__desc">
+                    Lorem ipsum dolor sit amet event landing template
+                </p>
+                <div class="feature-works__cards">
+                    <!-- img * 6 -->
+                    <!-- .feature-works__card>img[src="/assets/img/feature_works/feature_works_$.png"]^*6 -->
+                    <div class="feature-works__card col-xl-4">
+                        <img src="/assets/img/feature_works/feature_works_1.png" alt=""></div>
+                    <div class="feature-works__card col-xl-4">
+                        <img src="/assets/img/feature_works/feature_works_2.png" alt=""></div>
+                    <div class="feature-works__card col-xl-4">
+                        <img src="/assets/img/feature_works/feature_works_3.png" alt=""></div>
+                    <div class="feature-works__card col-xl-4">
+                        <img src="/assets/img/feature_works/feature_works_4.png" alt=""></div>
+                    <div class="feature-works__card col-xl-4">
+                        <img src="/assets/img/feature_works/feature_works_5.png" alt=""></div>
+                    <div class="feature-works__card col-xl-4">
+                        <img src="/assets/img/feature_works/feature_works_6.png" alt=""></div>
+                </div>
             </div>
         </aside>
         <!-- our services -->
-        <aside>
-            <h2 class="our-services__title">our services</h2>
-            <p class="our-services__desc">Lorem ipsum dolor sit amet event landing template</p>
-            <div class="our-services__cards">
-                <div class="our-services__card">
-                    <h3 class="our-services__card-header">Designing is The CooL LOVE FOR.</h3>
-                    <p class="our-services__card-desc">
-                        Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and
-                        you middle most this job was posted less than five minutes ago, and we think it’s a good match
-                        for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch
-                        the client while they’re still online.
-                    </p>
+        <aside class="our-services">
+            <div class="container">
+                <h2 class="our-services__title">our services</h2>
+                <p class="our-services__desc">Lorem ipsum dolor sit amet event landing template</p>
+                <div class="our-services__cards">
+                <div class="our-services__card  col-xl-7">
+                    <div class="our-services__card-wrap">
+                        <img src="/assets/img/our_services/our_services_1.png" alt="">
+                        <div class="our-services__card-text">
+                            <h3 class="our-services__card-header">Designing is The CooL LOVE FOR.</h3>
+                            <p class="our-services__card-desc">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and
+                                you middle most this job was posted less than five minutes ago, and we think it’s a good match
+                                for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch
+                                the client while they’re still online.
+                            </p>
+                            <button class="our-services__card-btn">Know More</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="our-services__card">
-                    <h3 class="our-services__card-header">cool psd Design</h3>
-                    <p class="our-services__card-desc">
-                        Our most popular service is our we know that sometimes it’s something and you middle most..
-                    </p>
-                    <button class="our-services__card-btn">Know More</button>
+                <div class="our-services__card  col-xl-5">
+                    <div class="our-services__card-wrap">
+                        <img src="/assets/img/our_services/our_services_2.png" alt="">
+                        <div class="our-services__card-text">
+                            <h3 class="our-services__card-header">cool psd Design</h3>
+                            <p class="our-services__card-desc">
+                                Our most popular service is our we know that sometimes it’s something and you middle most..
+                            </p>
+                            <button class="our-services__card-btn">Know More</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="our-services__card">
-                    <h3 class="our-services__card-header">Designing is The Cool</h3>
-                    <p class="our-services__card-desc">
-                        Our most popular service is our Virtual Receptionist. We know that ...
-                    </p>
-                    <button class="our-services__card-btn">Know More</button>
+                <div class="our-services__card  col-xl-7">
+                    <div class="our-services__card-wrap">
+                        <img src="/assets/img/our_services/our_services_3.png" alt="">
+                        <div class="our-services__card-text">
+                            <h3 class="our-services__card-header">Designing is The Cool</h3>
+                            <p class="our-services__card-desc">
+                                Our most popular service is our Virtual Receptionist. We know that ...
+                            </p>
+                            <button class="our-services__card-btn">Know More</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="our-services__card">
-                    <h3 class="our-services__card-header">PSD TO HTML KORI</h3>
-                    <p class="our-services__card-desc">
-                        We know that sometimes it’s something and you middle most..
-                    </p>
-                    <button class="our-services__card-btn">Know More</button>
+                <div class="our-services__card  col-xl-5">
+                    <div class="our-services__card-wrap">
+                        <img src="/assets/img/our_services/our_services_4.png" alt="">
+                        <div class="our-services__card-text">
+                            <h3 class="our-services__card-header">PSD TO HTML KORI</h3>
+                            <p class="our-services__card-desc">
+                                We know that sometimes it’s something and you middle most..
+                            </p>
+                            <button class="our-services__card-btn">Know More</button>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="our-services__card">
-                    <h3 class="our-services__card-header">cool psd Design</h3>
-                    <p class="our-services__card-desc">
-                        Our most popular service is our new virtual Receptionist you middle most..
-                    </p>
-                    <button class="our-services__card-btn">Know More</button>
+                <div class="our-services__card  col-xl-5">
+                    <div class="our-services__card-wrap">
+                        <img src="/assets/img/our_services/our_services_5.png" alt="">
+                        <div class="our-services__card-text">
+                            <h3 class="our-services__card-header">cool psd Design</h3>
+                            <p class="our-services__card-desc">
+                                Our most popular service is our new virtual Receptionist you middle most..
+                            </p>
+                            <button class="our-services__card-btn">Know More</button>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="our-services__card">
-                    <h3 class="our-services__card-header">Designing is The Cool FOR</h3>
-                    <p class="our-services__card-desc">
-                        Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and
-                        you middle most..
-                    </p>
-                    <button class="our-services__card-btn">Know More</button>
-                </div>
+                <div class="our-services__card  col-xl-7">
+                    <div class="our-services__card-wrap">
+                        <img src="/assets/img/our_services/our_services_6.png" alt="">
+                        <div class="our-services__card-text">
+                            <h3 class="our-services__card-header">Designing is The Cool FOR</h3>
+                            <p class="our-services__card-desc">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and
+                                you middle most..
+                            </p>
+                            <button class="our-services__card-btn">Know More</button>
+                        </div>
+                    </div>
+                    </div>
             </div>
+            </div>
+            
         </aside>
         <!-- small team -->
         <aside class="small-team">

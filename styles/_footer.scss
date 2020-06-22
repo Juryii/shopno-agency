@@ -3,41 +3,15 @@
   // .the-footer__title
 
   &__title {
-    // Style for "FOLLOW US"
-    width: 93px;
-    height: 12px;
-    opacity: 0.8;
-    color: #ffffff;
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    text-transform: uppercase;
-    // Text style for "F, OLLOW U"
-    letter-spacing: 0.16px;
   }
 
   // .the-footer__links
 
   &__links {
-    background-color: #8a8a8a;
-    opacity: 0.4;
-    padding: 11px 12px;
   }
 
   // .the-footer__copyright
 
   &__copyright {
-    // Style for "Copyright"
-    width: 342px;
-    height: 16px;
-    opacity: 0.4;
-    color: #ffffff;
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 25px;
-    // Text style for "C, opyrigh"
-    letter-spacing: 0.16px;
   }
 }

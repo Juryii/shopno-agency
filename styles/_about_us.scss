@@ -1,37 +1,13 @@
 .about-us {
-  background-color: #f8fafa;
+
   // .about-us__title
 
   &__title {
-    // Style for "ABOUT US"
-    width: 219px;
-    height: 28px;
-    opacity: 0.9;
-    color: #000000;
-    font-family: Montserrat;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 28px;
-    text-transform: uppercase;
-    // Text style for "ABOUT US"
-    letter-spacing: 2.28px;
   }
 
   // .about-us__desc
 
   &__desc {
-    // Style for "Lorem ipsu"
-    width: 617px;
-    height: 15px;
-    opacity: 0.62;
-    color: #000000;
-    font-family: Merriweather;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    text-transform: uppercase;
-    // Text style for "L, orem ip"
-    letter-spacing: 1.08px;
   }
 
   // .about-us__content
@@ -39,53 +15,46 @@
   &__content {
   }
 
+  // .about-us__column-1
+
+  &__column-1 {
+  }
+
+  // .about-us__slider
+
+  &__slider {
+  }
+
+  // .about-us__slider-item
+
+  &__slider-item {
+  }
+
+  // .about-us__column-2
+
+  &__column-2 {
+  }
+
   // .about-us__amazing-works
 
   &__amazing-works {
-    // Style for "We Actuall"
-    width: 406px;
-    height: 17px;
-    opacity: 0.75;
-    color: #000000;
-    font-family: Merriweather;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-    text-transform: uppercase;
-    // Text style for "We Actuall"
-    letter-spacing: 1.2px;
   }
 
   // .about-us__text-desc
 
   &__text-desc {
-    // Style for "A visual a"
-    width: 474px;
-    height: 212px;
-    opacity: 0.74;
-    color: #000000;
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    // Text style for "A,  visual"
-    letter-spacing: 0.8px;
-      }
+  }
 
   // .about-us__great
 
   &__great {
-    // Style for "why we are"
-    width: 254px;
-    height: 17px;
-    opacity: 0.75;
-    color: #000000;
-    font-family: Merriweather;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 28px;
-    text-transform: uppercase;
-    // Text style for "why we are"
-    letter-spacing: 1.02px;
   }
+}
+.container {
+}
+.row {
+}
+.col-xl-6 {
+}
+.col-xl-9 {
 }
