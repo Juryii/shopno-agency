@@ -1,11 +1,12 @@
 .header {
   background-color: #eff0f2;
-  opacity: 0.99;
-  padding-top: 64px;
-  display: flex;
-  flex-direction: column;
+  padding: 64px 0px;
+  min-height: 100vh;
+  
   // .header__logo
-
+  &__content{
+    height: -webkit-fill-available;
+  }
   &__logo {
     border: 6px solid #170f1c;
     // Style for "SHOPNO"
@@ -21,7 +22,6 @@
     // Text style for "SH, PNO"
     letter-spacing: 1.02px;
     // Text style for "O"
-    margin-left: 151px;
     p {
       padding-top: 5px;
       padding-left: 6px;
@@ -35,21 +35,14 @@
   }
 
   // .header__burger
-  // ! change height on 4px, correct top bottom on element
   &__burger {
     display: block;
     position: relative;
     width: 30px;
-    height: 21px;
-    top: 16px;
-    margin-right: 151px;
-    :hover{
-      cursor: pointer;
-    }
-    &:before, &:after{
+    height: 22px;
+    &:before, &:after, & span{
       content: '';
-      background-color: #000000;
-      opacity: 0.6;
+      background-color: rgba(#000, 0.6);
       border-radius: 2px;
       position: absolute;
       width: 100%;
@@ -63,14 +56,8 @@
       bottom: 0;
     }
     & span {
-      position: absolute;
-      background-color: #000000;
-      opacity: 0.6;
-      border-radius: 2px;
-      left: 0;
-      width: 100%;
-      height: 4px;
-      top: 9px;
+      top: 50%;
+      transform: translateY(-50%);
     }
 
   }
@@ -79,8 +66,6 @@
 
   &__title {
     // Style for "Say Hello"
-    // width: 608px;
-    // height: 33px;
     text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
     color: #505050;
     font-family: Montserrat;
@@ -90,11 +75,6 @@
     text-transform: uppercase;
     // Text style for "Say Hello"
     letter-spacing: 2.7px;
-    // Text style for ""
-    // color: #ffffff;
-    // letter-spacing: 2.7px;
-    text-align: center;
-    margin-bottom: 140px;
     & span {
       background-color: #76f4ea;
       opacity: 0.5;
@@ -119,14 +99,7 @@
     // other styles
     padding: 20px 48px;
     margin: 0 auto;
-    margin-bottom: 194px;
   }
 }
 
 
-
-.roow {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 200px;
-}

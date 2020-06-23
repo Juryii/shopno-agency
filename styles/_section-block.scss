@@ -1,0 +1,94 @@
+.section-block {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  &--grey{
+    background-color: #f9fbfb;
+  }
+
+  &__title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat;
+
+  }
+  &__desc{
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Merriweather;
+
+  }
+  // .sectiont-block__card
+
+  &__card {
+    position: relative;
+    z-index: 10;
+  }
+
+  // .sectiont-block__card-img
+  &__card--img::before {
+    content: '';
+    background-color: rgba(#000, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &__card-img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+  }
+
+  // .sectiont-block__card-header
+
+  &__card-header {
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  // .sectiont-block__card-header--active
+
+  &__card-header--active {
+  }
+
+  // .sectiont-block__card-desc
+
+  &__card-desc {
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  // .sectiont-block__card-desc--active
+
+  &__card-desc--active {
+  }
+
+  // .sectiont-block__card-btn
+
+  &__card-btn {
+    display: flex;
+    align-items: center;
+  }
+
+  // .sectiont-block__card-wrap
+
+  &__card-wrap {
+  }
+
+  // .sectiont-block__card-text
+
+  &__card-text {
+  }
+
+  // .sectiont-block__card-text--active
+
+  &__card-text--active {
+  }
+}
+
