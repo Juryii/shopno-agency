@@ -1,24 +1,132 @@
 .header {
-  
+  background-color: #eff0f2;
+  opacity: 0.99;
+  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
   // .header__logo
 
   &__logo {
+    border: 6px solid #170f1c;
+    // Style for "SHOPNO"
+    width: 113px;
+    height: 46px;
+    text-shadow: 0 0 2px rgba(21, 21, 22, 0.75);
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    // Text style for "SH, PNO"
+    letter-spacing: 1.02px;
+    // Text style for "O"
+    margin-left: 151px;
+    p {
+      padding-top: 5px;
+      padding-left: 6px;
+    }
+    & span {
+      color: #77efe5;
+      font-size: 21px;
+      letter-spacing: 1.26px;
+    }
+    
   }
 
   // .header__burger
-
+  // ! change height on 4px, correct top bottom on element
   &__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    top: 16px;
+    margin-right: 151px;
+    :hover{
+      cursor: pointer;
+    }
+    &:before, &:after{
+      content: '';
+      background-color: #000000;
+      opacity: 0.6;
+      border-radius: 2px;
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      left: 0;
+    }
+    &:before{
+      top: 0;
+    }
+    &:after{
+      bottom: 0;
+    }
+    & span {
+      position: absolute;
+      background-color: #000000;
+      opacity: 0.6;
+      border-radius: 2px;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      top: 9px;
+    }
+
   }
 
   // .header__title
 
   &__title {
+    // Style for "Say Hello"
+    // width: 608px;
+    // height: 33px;
+    text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+    color: #505050;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    text-transform: uppercase;
+    // Text style for "Say Hello"
+    letter-spacing: 2.7px;
+    // Text style for ""
+    // color: #ffffff;
+    // letter-spacing: 2.7px;
+    text-align: center;
+    margin-bottom: 140px;
+    & span {
+      background-color: #76f4ea;
+      opacity: 0.5;
+    }
   }
 
   // .header__btn
 
   &__btn {
+    // Style for "CONTACT US"
+    width: 232px;
+    height: 53px;
+    opacity: 0.75;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+    // Text style for "CONTACT US"
+    letter-spacing: 1.3px;
+    // other styles
+    padding: 20px 48px;
+    margin: 0 auto;
+    margin-bottom: 194px;
   }
 }
-.row {
+
+
+
+.roow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
 }

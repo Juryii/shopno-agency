@@ -1,5 +1,152 @@
 .our-services {
+  background-color: #f9fbfb;
+  padding-top: 124px;
+  // .our-services__title
 
+  &__title {
+    // Style for "our servic"
+    // width: 317px;
+    // height: 28px;
+    opacity: 0.9;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    // Text style for "our servic"
+    letter-spacing: 2.28px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  // .our-services__desc
+
+  &__desc {
+    // Style for "Lorem ipsu"
+    // width: 583px;
+    // height: 14px;
+    opacity: 0.62;
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    // Text style for "L, orem ip"
+    letter-spacing: 1.02px;
+    text-align: center;
+    padding-bottom: 123px;
+  }
+
+  // .our-services__cards
+
+  &__cards {
+  }
+
+  // .our-services__card
+
+  &__card {
+    padding: 7px;
+    &--active{
+      background-color: #6df6eb;
+      opacity: 0.97;
+    }
+  }
+  &__card-wrap{
+    // background-color: #000000;
+    // opacity: 0.6;
+    max-width: 100%;
+    position: relative;
+    height: 100%;
+    img{
+      object-fit: fill;
+      max-width: 100%;
+    }
+  }
+  &__card-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    padding-left: 66px;
+    padding-right: 40px;
+  }
+
+  // .our-services__card-header
+
+  &__card-header {
+    // Style for "cool psd D"
+    // width: 201px;
+    // height: 17px;
+    opacity: 0.95;
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+    // Text style for "c, ool psd"
+    letter-spacing: 1px;
+    padding-top: 150px;
+    padding-bottom: 27px;
+    &--active {
+      // Style for "Designing"
+      opacity: 0.83;
+      color: #000000;
+      // Text style for "D, esignin"
+      letter-spacing: 1.2px;
+    }
+  }
+
+  // .our-services__card-desc
+
+  &__card-desc {
+    // Style for "Our most p"
+    // width: 312px;
+    // height: 63px;
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    // Text style for "Our most p"
+    letter-spacing: 0.32px;
+    &--active {
+      // Style for "Our most p"
+      opacity: 0.75;
+      color: #000000;
+      line-height: 28px;
+      // Text style for "Our most p"
+      letter-spacing: 0.4px;
+    }
+  }
+
+  // .our-services__card-btn
+
+  &__card-btn {
+    // Style for "Know More"
+    width: 118px;
+    height: 13px;
+    opacity: 0.9;
+    color: #f9fbfb;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 85px;
+    text-transform: uppercase;
+    // Text style for "K, now Mor"
+    letter-spacing: 0.72px;
+  }
+}
+
+
+
+.our-services {
   // .our-services__title
 
   &__title {

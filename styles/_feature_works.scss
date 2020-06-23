@@ -1,26 +1,59 @@
 .feature-works {
-
+  padding-top: 130px;
+  padding-bottom: 125px;
   // .feature-works__title
 
   &__title {
+    // Style for "featured w"
+    // width: 401px;
+    // height: 28px;
+    opacity: 0.9;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    // Text style for "featured w"
+    letter-spacing: 2.28px;
+    text-align: center;
+    margin-bottom: 17px;
+    
   }
 
   // .feature-works__desc
 
   &__desc {
+    // Style for "Lorem ipsu"
+    // width: 583px;
+    // height: 14px;
+    opacity: 0.62;
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    // Text style for "L, orem ip"
+    letter-spacing: 1.02px;
+    text-align: center;
+    margin-bottom: 122px;
   }
 
   // .feature-works__cards
 
   &__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   // .feature-works__card
 
   &__card {
+    padding: 7px;
+    img{
+      max-width: 100%;
+    }
   }
-}
-.container {
-}
-.col-xl-4 {
 }
