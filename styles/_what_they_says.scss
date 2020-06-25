@@ -1,19 +1,14 @@
 .slider-they-say {
   margin: 50px 0;
-  // .slider-they-say__slide-1
-
-  &__slide {
-  }
 
   &__user-desc-slider {
     height: 100%;
-    padding: 10px 0 50px;
+    padding: 10px 0 70px;
+
     & div {
       height: inherit;
-      & div {
-        height: inherit;
-      }
     }
+
     .slick-arrow {
       width: 50px;
       height: 50px;
@@ -26,9 +21,14 @@
       bottom: -20px;
       right: 0;
       outline: none;
+      background-color: #fff;
+
       &:hover {
         cursor: pointer;
+        
+        background-color: #71f6eb;
       }
+
       &:focus {
         outline: #00ffea;
       }
@@ -36,31 +36,29 @@
     .slick-next {
       background-image: url("/assets/icons/next.svg");
       box-shadow: 2px 6px 11px rgba(20, 20, 21, 0.1);
-      background-color: #71f6eb;
+      opacity: 0.5;
     }
     .slick-prev {
       background-image: url("/assets/icons/prev.svg");
-      box-shadow: 3px 7px 11px rgba(20, 20, 21, 0.05);
-      background-color: #fff;
+      box-shadow: 3px 7px 11px rgba(20, 20, 21, 0.05);  
       right: 70px;
     }
-
-
   }
 
   // .slider-they-say__user-avatar
-
   &__user-avatar {
     width: 100%;
     position: relative;
     z-index: 4;
+
     & ul {
       list-style: none;
       padding: 0;
       margin: 20px 0;
       display: flex;
       justify-content: center;
-      & button{
+
+      & button {
         font-size: 0;
         width: 10px;
         height: 10px;
@@ -70,17 +68,21 @@
         border: none;
         outline: none;
         padding: 0;
+
         &:hover {
           background-color: #71f6eb;
         }
       }
-      .slick-active{
-        & button{
-          background-color: red;
+
+      .slick-active {
+
+        & button {
+          background-color: #71f6eb;
           border: none;
         }
       }
     }
+
     &::before{
       content: '';
       width: 393px;
@@ -94,20 +96,34 @@
     }
   }
 
-  // .slider-they-say__about-user
+  &__user-avatar-image {
+    outline: none;
+  }
 
+  // .slider-they-say__about-user
   &__about-user {
     padding: 20px 50px;
     background-color: #eaebed;
+    outline: none;
   }
 
   // .slider-they-say__user-name
-
   &__user-name {
+    font-family: "Merriweather - Bold";
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 28px;
+
+    & span {
+      color: rgba($color: #787878, $alpha: .95);
+      font-family: "Merriweather - Regular";
+      font-size: 15px;
+      font-weight: 400;
+      font-style: italic;
+    }
   }
 
   // .slider-they-say__user-desc
-
   &__user-desc {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -120,11 +136,21 @@
   }
 
   // .slider-they-say__user-stars
-
   &__user-stars {
+
+    .user-star {
+      width: 16px;
+      height: 16px;
+      margin: 0 3px;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 }
 .row {
+  
   &.gutters-lg {
     margin-left: -40px;
     margin-right: -40px;
@@ -136,6 +162,15 @@
     }
   }
 }
-.slick-dots{
+.row {
+  &.gutters-team {
+    margin-left: -8px;
+    margin-right: -8px;
 
+    > .col,
+    > [class*="col-"] {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
 }

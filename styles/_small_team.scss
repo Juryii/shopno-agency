@@ -1,22 +1,22 @@
 .small-team {
-
   // .small-team__card-user
-
   &__card-user {
     position: relative;
-    margin: 15px 0;
-    &:hover{
-      .small-team__card-user-desc{
+    margin: 8px 0;
+
+    &:hover {
+
+      .small-team__card-user-desc {
         opacity: 1;
       }
     }
-    & img{
+
+    & img {
       width: 100%;
     }
   }
 
   // .small-team__card-user-desc
-
   &__card-user-desc {
     position: absolute;
     left: 16px;
@@ -26,8 +26,9 @@
     box-shadow: 3px 6px 16px rgba(20, 20, 21, 0.18);
     padding: 36px 25px;
     opacity: 0;
-    transition: all 0.3s;
-    &::after, &::before{
+    transition: all 0.8s;
+
+    &::after, &::before {
       content: '';
       position: absolute;
       background: #6df6eb;
@@ -39,29 +40,42 @@
   }
 
   // .small-team__user-name
-
   &__user-name {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 15px;
-    color: #767070;
+    color: rgba($color: #272727, $alpha: .95);
     font-family: "Merriweather - Bold";
-    & span{
+
+    & span {
       font-weight: 400;
       letter-spacing: 0.45px;
       font-family: "Merriweather - Regular";
       font-style: italic;
+      color: rgba($color: #767070, $alpha: .95);
     }
   }
 
-  // .small-team__user-links
+  &__user-desc {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    color: #000000;
+  }
 
+  // .small-team__user-links
   &__user-links {
-    & ul{
+
+    & ul {
       list-style: none;
-      & li{
+      // padding-left: 15px;
+      padding-inline-start: 0;
+
+      & li {
         margin-right: 10px;
-        width: 20px;
-        height: 20px;
+        width: 12px;
+        height: 12px;
       }
     }
   }

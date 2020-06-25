@@ -1,32 +1,78 @@
 .about-us {
   background-color: #f8fafa;
-  // .about-us__title
 
+  // .about-us__title
   &__title {
-    // Style for "ABOUT US"
-    // width: 219px;
-    // height: 28px;
-    opacity: 0.9;
-    color: #000000;
+    color: rgba($color: #000000, $alpha: .9);
     font-family: Montserrat;
     font-size: 38px;
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
-    // Text style for "ABOUT US"
     letter-spacing: 2.28px;
     text-align: center;
     padding-top: 130px;
     margin-bottom: 18px;
+  }
 
+  &__slider {
+    z-index: 10;
+    & ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+
+      & button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        margin: 0px 3px;
+        background-color: #d0d0d0;
+        border-radius: 30%;
+        border: none;
+        outline: none;
+        padding: 0;
+
+        &:hover {
+          background-color: #71f6eb;
+        }
+      }
+
+      .slick-active{
+        & button{
+          background-color: #71f6eb;
+          border: none;
+        }
+      }
+    }
+
+    &::before {
+    content: '';
+    width: 479px;
+    height: 412px;
+    border-radius: 3px;
+    background-color: #ecedef;
+    position: absolute;
+    top: 25px;
+    left: -35px;
+    z-index: -1;
+    }
+
+    img {
+      width: 100%;
+      outline: none;
+    }
+  }
+
+  &__slider-item {
+    outline: none;
   }
 
   // .about-us__desc
-
   &__desc {
-    // Style for "Lorem ipsu"
-    // width: 617px;
-    // height: 15px;
+    color: rgba($color: #000000, $alpha: .62);
     opacity: 0.62;
     color: #000000;
     font-family: Merriweather;
@@ -34,61 +80,42 @@
     font-weight: 400;
     line-height: 28px;
     text-transform: uppercase;
-    // Text style for "L, orem ip"
     letter-spacing: 1.08px;
     text-align: center;
     margin-bottom: 147px;
   }
 
   // .about-us__content
-
   &__content {
     padding-bottom: 114px;
   }
 
   // .about-us__amazing-works
-
   &__amazing-works {
-    // Style for "We Actuall"
-    // width: 406px;
-    // height: 17px;
-    opacity: 0.75;
-    color: #000000;
+    color: rgba($color: #000000, $alpha: .75);
     font-family: Merriweather;
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
-    // Text style for "We Actuall"
     letter-spacing: 1.2px;
     margin-bottom: 31px;
   }
 
   // .about-us__text-desc
-
   &__text-desc {
-    // Style for "A visual a"
-    width: 474px;
-    height: 212px;
-    opacity: 0.74;
-    color: #000000;
+    color: rgba($color: #000000, $alpha: .74);
     font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    // Text style for "A,  visual"
     letter-spacing: 0.8px;
     margin-bottom: 38px;
     }
 
   // .about-us__great
-
   &__great {
-    // Style for "why we are"
-    width: 254px;
-    height: 17px;
-    opacity: 0.75;
-    color: #000000;
+    color: rgba($color: #000000, $alpha: .75);
     font-family: Merriweather;
     font-size: 17px;
     font-weight: 700;

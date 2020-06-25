@@ -22,4 +22,10 @@ $(document).ready(function () {
     centerMode: true,
     focusOnSelect: true
   });
+  $('.about-us__slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true
+  });
 });

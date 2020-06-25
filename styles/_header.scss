@@ -7,9 +7,10 @@
   &__content{
     height: -webkit-fill-available;
   }
+
   &__logo {
     border: 6px solid #170f1c;
-    // Style for "SHOPNO"
+    padding: 2px 7px;
     width: 113px;
     height: 46px;
     text-shadow: 0 0 2px rgba(21, 21, 22, 0.75);
@@ -19,13 +20,13 @@
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
-    // Text style for "SH, PNO"
     letter-spacing: 1.02px;
-    // Text style for "O"
+
     p {
       padding-top: 5px;
       padding-left: 6px;
     }
+
     & span {
       color: #77efe5;
       font-size: 21px;
@@ -40,6 +41,7 @@
     position: relative;
     width: 30px;
     height: 22px;
+
     &:before, &:after, & span{
       content: '';
       background-color: rgba(#000, 0.6);
@@ -49,23 +51,23 @@
       height: 4px;
       left: 0;
     }
+
     &:before{
       top: 0;
     }
+
     &:after{
       bottom: 0;
     }
+
     & span {
       top: 50%;
       transform: translateY(-50%);
     }
-
   }
 
   // .header__title
-
   &__title {
-    // Style for "Say Hello"
     text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
     color: #505050;
     font-family: Montserrat;
@@ -73,7 +75,6 @@
     font-weight: 700;
     line-height: 53px;
     text-transform: uppercase;
-    // Text style for "Say Hello"
     letter-spacing: 2.7px;
     & span {
       background-color: #76f4ea;
@@ -82,23 +83,26 @@
   }
 
   // .header__btn
-
   &__btn {
-    // Style for "CONTACT US"
-    width: 232px;
-    height: 53px;
-    opacity: 0.75;
-    color: #000000;
+    color: rgba($color: #000000, $alpha: .75);
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
     line-height: 10px;
     text-transform: uppercase;
-    // Text style for "CONTACT US"
+    border-color: rgba($color: #000000, $alpha: .5);
+    border: 2px solid;
+    border-radius: 2px;
     letter-spacing: 1.3px;
-    // other styles
     padding: 20px 48px;
     margin: 0 auto;
+    transition: .5s;
+    
+    &:hover {
+      cursor: pointer;
+      background-color: #d6d6d670;
+      border-color: rgba(0, 0, 0, 0.2);
+    }
   }
 }
 
